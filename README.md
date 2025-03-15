@@ -1,8 +1,4 @@
 # ComputerVision
-컴퓨터 비전 공부, 과제 백업용
-
-
-
 
 ### simple_video_recorder
 천안시 고속철 입구 CCTV 영상을 불러와 녹화할 수 있는 프로그램입니다.

@@ -7,4 +7,7 @@
 
 '<' 키 입력할 때마다 밝기가 조금씩 올라갑니다. '>' 키를 입력하면 밝기가 조금씩 내려갑니다. 조정된 밝기는 녹화 영상에도 적용되나, 녹화 도중엔 밝기를 조절할 수 없습니다.
 
-<img src="https://github.com/user-attachments/assets/b3a755ce-dc4b-438a-8c98-004df5521ec3.png" width="200" height="400"/>
+
+
+https://github.com/user-attachments/assets/ad57ccc3-a4cf-4593-817e-227a9e0ba0ec
+

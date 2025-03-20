@@ -11,7 +11,7 @@ gpt로 만든 코드에서 아래와 같이 medianBlur 인자값(커널 크기)�
 
     cv2.imshow("Original", img)
 
-본 알고리즘은 MilesMorales2.jpg 이미지는 만화풍으로 잘 전환 됩니다.
+본 알고리즘은 MilesMorales2.jpg 이미지는 큰 이질감 없이 만화풍으로 잘 전환 됩니다.
 ![MilesMorales2_toCartoon](https://github.com/user-attachments/assets/01d5c766-6ec3-4d80-a8d3-1513ff85f58e)
 
 하지만 MilesMorales1.jpg 이미지와 같이 신체의 외곽(손, 다리 등)이 다른 그림과 겹쳐지는 경우 외곽선을 제대로 형성하지 못해 선명해야할 부분이 뭉개지는 문제가 있습니다.

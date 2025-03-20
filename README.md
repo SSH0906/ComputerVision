@@ -5,11 +5,11 @@
 
 gpt로 만든 코드에서 아래와 같이 medianBlur 인자값(커널 크기)을 5에서 3으로 변경하여 기존 코드보다 뭉개지는 정도를 줄였습니다.
 
-  gray = cv2.medianBlur(gray, 3)
+    gray = cv2.medianBlur(gray, 3)
 
 또한, Cartoon창 외에 Original창을 띄워 원본 이미지와 비교할 수 있도록 아래 코드를 추가했습니다.
 
-  cv2.imshow("Original", img)
+    cv2.imshow("Original", img)
 
 본 알고리즘은 MilesMorales2.jpg 이미지는 만화풍으로 잘 전환 됩니다.
 ![MilesMorales2_toCartoon](https://github.com/user-attachments/assets/01d5c766-6ec3-4d80-a8d3-1513ff85f58e)

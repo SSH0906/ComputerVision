@@ -4,8 +4,7 @@
 
 ## simple_cartoon_converter.py
 <details>
-<summary>이미지를 만화풍으로 바꾸는 프로그램입니다.</summary>
-(*이해도가 낮고 시간이 없어 gpt 코드를 거의 그대로 가져왔습니다.)
+<summary>이미지를 만화풍으로 바꾸는 프로그램입니다.(*이해도가 낮고 시간이 없어 gpt 코드를 거의 그대로 가져왔습니다.)</summary>
 <br>
 gpt로 만든 코드에서 아래와 같이 medianBlur 인자값(커널 크기)을 5에서 3으로 변경하여 기존 코드보다 뭉개지는 정도를 줄였습니다.
 

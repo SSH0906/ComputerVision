@@ -6,6 +6,36 @@
 
 
 
+## pose_estimation_and_AR.py
+<details>
+<summary>카메라로 촬영한 체스판을 calibration 후 체스판 위에 도형을 그리는 간단한 AR 프로그램입니다.</summary>
+<br>
+프로그램을 실행하면 체스판 동영상이 재생됩니다.
+    
+<strong>스페이스바</strong>를 누르면 영상이 정지되며 탐지된 교차점들을 표시하고, 정지 상태에서 <strong>엔터</strong>를 누르면 정지된 이미지를 저장하며 영상이 다시 재생됩니다. <strong>esc</strong>를 누르면 동영상 창이 닫히며 저장된 이미지를 바탕으로 calibration을 시작합니다. (esc를 누르지 않아도ㅡ약 28초 가량의ㅡ영상이 종료되면 calibration을 시작합니다.)
+
+*저장된 이미지가 많지 않을 경우 calibration의 결과가 부정확할 수 있으며, 저장된 이미지가 아예 없을 경우 calibration을 수행하지 않습니다.*
+
+calibration이 끝나면 terminal에 calibration 결과가 아래와 같이 출력됩니다.
+
+![image](https://github.com/user-attachments/assets/c42e3445-7d61-4eb9-ba59-2bb549a04d9b)
+
+결과를 출력한 뒤엔 이를 기반으로 체스판 특정 위치에 실시간으로 도형을 그려넣는 영상이 새 창에서 재생됩니다.
+
+https://github.com/user-attachments/assets/09abdfac-715f-4da6-b928-bd5639523fbc
+
+*그려넣은 도형은 게임 젤다의 전설에 등장하는 '트라이포스' 문양입니다.*
+
+마찬가지로 <strong>스페이스바</strong>를 눌러 영상을 정지할 수 있으며, <strong>esc</strong>를 누르면 창이 닫히며 프로그램이 종료됩니다.
+
+</details>
+
+
+
+<br>
+
+
+
 ## camera_calibration_chessboard.py
 <details>
 <summary>카메라로 촬영한 체스판을 calibration 후 렌즈 왜곡을 보정하는 프로그램입니다.</summary>
